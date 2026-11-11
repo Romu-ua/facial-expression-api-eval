@@ -1,0 +1,41 @@
+# Local credentials and Python environment
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# OS and editor files
+.DS_Store
+._*
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local datasets; retain only the final evaluation manifest
+/data/*
+!/data/manifest_all.csv
+!/data/manifest_all.meta.json
+
+# Retain only the final evaluation, excluding future trial runs
+/results/*
+!/results/20261110T051552_566637Z/
+/results/20261110T051552_566637Z/*
+!/results/20261110T051552_566637Z/run.json
+!/results/20261110T051552_566637Z/predictions.jsonl
+!/results/20261110T051552_566637Z/summary.json
+!/results/20261110T051552_566637Z/confusion_matrix.csv
+
+# Reports, render previews, and temporary artifacts
+/output/
+/tmp/
+*.log

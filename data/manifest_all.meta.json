@@ -1,0 +1,16 @@
+{
+  "image_root": "data/raw/fer2013/test",
+  "seed": 42,
+  "per_class": 0,
+  "split": "test",
+  "counts": {
+    "angry": 958,
+    "disgust": 111,
+    "fear": 1024,
+    "happy": 1774,
+    "sad": 1247,
+    "surprise": 831,
+    "neutral": 1233
+  },
+  "total": 7178
+}
